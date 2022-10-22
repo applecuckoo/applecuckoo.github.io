@@ -1,6 +1,7 @@
 /* Made from CSS provided by the individual font projects */
 @import url(fonts/Inter/inter.css);
 @import url(fonts/SourceSerif/source-serif-combined.css);
+@import url();
 
 .emoji {
 	font-family: "Noto Color Emoji", sans-serif;
@@ -63,24 +64,15 @@
 p {
 	/* Inter for body copy. Centre align is also included. */
 	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
 	text-align: center;
 	font-size: 12pt;
 	padding: 10px;
 }
 
-/* Magic variable font code included with Inter */
-@supports (font-variation-settings: normal) {
-	p { font-family: "InterVar", sans-serif; font-optical-sizing: auto; }
-}
-
 h1 {
 	/* Source Serif for header */
 	font-family: 'Source Serif', serif;
+	font-optical-sizing: auto;
 	text-align: center;
 }
-
-/* The same code but for Source Serif*/
-@supports (font-variation-settings: normal) {
-	h1 { font-family: "Source Serif VF", sans-serif; font-optical-sizing: auto; }
-}
-
