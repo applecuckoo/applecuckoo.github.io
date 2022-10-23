@@ -1,7 +1,7 @@
 /* Made from CSS provided by the individual font projects */
 @import url(fonts/Inter/inter.css);
-@import url(fonts/SourceSerif/source-serif-combined.css);
-@import url();
+@import url(fonts/SourceSerif/source-serif-variable.css);
+@import url(fonts/NotoColorEmoji/NotoEmoji.css);
 
 .emoji {
 	font-family: "Noto Color Emoji", sans-serif;
