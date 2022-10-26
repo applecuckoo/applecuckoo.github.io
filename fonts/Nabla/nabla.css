@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Nabla;
+    src: url(Nabla[EDPT\,EHLT].woff2);
+}
+
+.gold {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --gold;
+}
+
+.pink {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --pink;
+}
+
+.cyan {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --cyan;
+}
+
+.black {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --black;
+}
+
+.grey {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --grey;
+}
+
+.tropical {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --tropical;
+}
+
+.midnight {
+    font-family: 'Nabla';
+    font-variation-settings: 'EDPT' 150;
+    font-size: 500%;
+    text-align: center;
+    font-palette: --midnight;
+}
+
+@font-palette-values --gold {
+    font-family: Nabla;
+    base-palette: 0;
+}
+
+@font-palette-values --pink {
+    font-family: Nabla;
+    base-palette: 1;
+}
+
+@font-palette-values --cyan {
+    font-family: Nabla;
+    base-palette: 2;
+}
+
+@font-palette-values --black {
+    font-family: Nabla;
+    base-palette: 3;
+}
+
+@font-palette-values --grey {
+    font-family: Nabla;
+    base-palette: 4;
+}
+
+@font-palette-values --tropical {
+    font-family: Nabla;
+    base-palette: 5;
+}
+
+@font-palette-values --midnight {
+    font-family: Nabla;
+    base-palette: 6;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
@@ -13,15 +13,17 @@
   </head>
   <body>
     <h1 class="graphHeader">Mermaid Graphinator</h1>
-    <p>Graphs - they're complicated to make, but now you can code a graph with <a href="https://mermaid.live">Mermaid</a>, a Markdown-like language for graphs.</p>
+    <p class="graphText">
+      Graphs - they're complicated to make, but now you can code a graph with <a href="https://mermaid.live">Mermaid</a>, a Markdown-like language for graphs.
+    </p>
     <!-- Magic syntax -->
     <div class="mermaid alignment">
       graph TD
-      a[Apps - Calculation, Graph, etc.] --> b[Escher - GUI Toolkit]
-      a --> c[Poincaré - Mathematical engine]
-      b --> d[Kandinsky - Graphics Engine]
-      d --> e[Ion - Hardware abstraction layer]
-      b --> e
+      A[Wait for new Unicode update] --> B
+      B{Update released?} -- No --- A
+      B -- Yes --- C[Pick emoji]
+      C --> D[Add emoji to emoji webpage]
+      D --> A
     </div>
 	<br><p><a href="index.html">Click here to go back to the homepage.</a></p>
   </body>
