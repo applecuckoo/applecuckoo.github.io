@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/applecuckoo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://applecuckoo.github.io
+  * I am applecuckoo (https://keybase.io/applecuckoo) on keybase.
+  * I have a public key ASAl5W39bCT1GtWkyuNA1eblgRxVDVjkW_4bohVSaYKhMAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012025e56dfd6c24f51ad5a4cae340d5e6e5811c550d58e45bfe1ba215526982a1300a",
+      "host": "keybase.io",
+      "kid": "012025e56dfd6c24f51ad5a4cae340d5e6e5811c550d58e45bfe1ba215526982a1300a",
+      "uid": "1b45f8dd7c1873fc1b5a4e0f2334fb19",
+      "username": "applecuckoo"
+    },
+    "merkle_root": {
+      "ctime": 1666913800,
+      "hash": "dd8ee37433e2fa0872c2d54501cd2ca6c80c08977308c9eee5dad7a08c950fbc16ee0fc0c1eee59204bb6a4c1eb94c27f791c766ee6920f0eee09330da0eac41",
+      "hash_meta": "cea5b58617019f4cab790e01ad486612887aceaf4a26c323e90345e2792dcefa",
+      "seqno": 23445427
+    },
+    "service": {
+      "entropy": "YhmigHndhDyAg1NRHvKQemGs",
+      "hostname": "applecuckoo.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1666913825,
+  "expire_in": 504576000,
+  "prev": "d95e17014153d865d7222de2f3c58dc85d1c48a558e8ac1214099b2780f3b442",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJeVt/Wwk9RrVpMrjQNXm5YEcVQ1Y5Fv+G6IVUmmCoTAKp3BheWxvYWTESpcCBsQg2V4XAUFT2GXXIi3i88WNyF0cSKVY6KwSFAmbJ4DztELEIIMhTeTV8iWmJNMEsnd2dkqFyX3HVaM69jBqK7o0xEiBAgHCo3NpZ8RArDPWT2oWTGIDpG7QK0PF9kphZKt8QemYsJ0lrpVHNjr4MO3UKukhsJlLge5KJfdZAneXp0ZamMsfwYoplKGFAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINsRlcT2oRGalNrPrg5ULL8nH96XTImg7Qb/m6muDg4Ho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/applecuckoo
+
+==================================================================
