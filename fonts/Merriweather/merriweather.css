@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Merriweather';
+    font-weight: 300 900;
+    font-style: normal;
+    src: url('Merriweather[opsz\,wdth\,wght].woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Merriweather';
+    font-weight: 300 900;
+    font-style: italic;
+    src: url('Merriweather-Italic[opsz\,wdth\,wght].woff2') format('woff2'),
+}

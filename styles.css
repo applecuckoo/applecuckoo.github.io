@@ -3,6 +3,8 @@
 @import url(fonts/SourceSerif/source-serif-variable.css);
 @import url(fonts/NotoColorEmoji/NotoEmoji.css);
 @import url(fonts/Nabla/nabla.css);
+@import url(fonts/Merriweather/merriweather.css);
+@import url(fonts/Rubik/rubik.css);
 
 .inter {
 	font-family: "Inter", sans-serif;
@@ -119,6 +121,33 @@
 	font-size: 500%;
 	text-align: center;
 	animation-name: SourceSerifSlide;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes MerriweatherSlide {
+	from {font-variation-settings: 'wght' 300;}
+	to {font-variation-settings: 'wght' 900;}
+}
+
+.slidingtextMerriweather {
+	font-family: 'Merriweather', serif;
+	font-optical-sizing: auto;
+	font-size: 500%;
+	text-align: center;
+	animation-name: MerriweatherSlide;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.slidingtextRubik {
+	font-family: 'Rubik', sans-serif;
+	font-size: 500%;
+	text-align: center;
+	/* Merriweather has same bounds so reusing */
+	animation-name: MerriweatherSlide;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
